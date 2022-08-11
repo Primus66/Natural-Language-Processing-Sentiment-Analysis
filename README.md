@@ -148,7 +148,7 @@ Learning curves values for accuracy and loss are calculated during training usin
 
 ### Only CNN 
 #### non-static
- [![cnnaccnonstatic](C:\Users\LENOV\Documents\GitHub\Natural-Language-Processing---Sentiment-Analysis\Images\cnnaccnonstatic.png)]() | [![cnnlossnonstatic](C:\Users\LENOV\Documents\GitHub\Natural-Language-Processing---Sentiment-Analysis\Images\cnnlossnonstatic.png)]() 
+ [![cnnaccnonstatic](https://github.com/Primus66/Natural-Language-Processing---Sentiment-Analysis/blob/main/Images/cnnaccnonstatic.png]() | [![cnnlossnonstatic](C:\Users\LENOV\Documents\GitHub\Natural-Language-Processing---Sentiment-Analysis\Images\cnnlossnonstatic.png)]() 
 |:---:|:---:|
 | Accuracy | Loss |
 
