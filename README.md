@@ -13,7 +13,7 @@ ___
 - Clone and unzip this repo.
 - modify variables `dataset_dir ` and `glove_dir`  in `saverData.py` with your absolute path to dataset and embedding directory.
 - Run `saverData.py`, this will load your dataset and embedding, saving them in numpy format.
-- Run one of the following: `mainBIDIRLSTM.py`, `mainCNNnonstatic.py`, `mainCNNrand.py`, `mainCNNstatic.py`, `mainDOBLE.py`, `mainLSTM.py`
+- Run one of the following:  `CNNnon-static.py`, `CNNrandom.py`, `CNNstatic.py`, `Double.py`, `LSTM.py`
 
 ## Getting the Dataset 
 
