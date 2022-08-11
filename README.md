@@ -149,35 +149,35 @@ Learning curves values for accuracy and loss are calculated during training usin
 
 ### Only CNN 
 #### non-static
- [![cnnaccnonstatic](https://github.com/SqrtPapere/SentimentAnalysis_CNN/blob/master/Images/cnnaccnonstatic.png)]() | [![cnnlossnonstatic](https://github.com/SqrtPapere/SentimentAnalysis_CNN/blob/master/Images/cnnlossnonstatic.png)]() 
+ [![cnnaccnonstatic](C:\Users\LENOV\Documents\GitHub\Natural-Language-Processing---Sentiment-Analysis\Images\cnnaccnonstatic.png)]() | [![cnnlossnonstatic](C:\Users\LENOV\Documents\GitHub\Natural-Language-Processing---Sentiment-Analysis\Images\cnnlossnonstatic.png)]() 
 |:---:|:---:|
 | Accuracy | Loss |
 
 On entire Test Set: `Accuracy = 89.96%`
 
 #### static
- [![cnnaccstatic](https://github.com/SqrtPapere/SentimentAnalysis_CNN/blob/master/Images/cnnaccstatic.png)]() | [![cnnlossstatic](https://github.com/SqrtPapere/SentimentAnalysis_CNN/blob/master/Images/cnnlossstatic.png)]() 
+ [![cnnaccstatic](C:\Users\LENOV\Documents\GitHub\Natural-Language-Processing---Sentiment-Analysis\Images\cnnaccstatic.png)]() | [![cnnlossstatic](C:\Users\LENOV\Documents\GitHub\Natural-Language-Processing---Sentiment-Analysis\Images\cnnlossstatic.png)]() 
 |:---:|:---:|
 | Accuracy | Loss |
 
 On entire Test Set: `Accuracy = 88.98%`
 
 #### random
- [![cnnaccrandom](https://github.com/SqrtPapere/SentimentAnalysis_CNN/blob/master/Images/cnnaccrand.png)]() | [![cnnlossrandom](https://github.com/SqrtPapere/SentimentAnalysis_CNN/blob/master/Images/cnnlossrand.png)]() 
+ [![cnnaccrandom](C:\Users\LENOV\Documents\GitHub\Natural-Language-Processing---Sentiment-Analysis\Images\cnnaccrand.png)]() | [![cnnlossrandom](C:\Users\LENOV\Documents\GitHub\Natural-Language-Processing---Sentiment-Analysis\Images\cnnlossrand.png)]() 
 |:---:|:---:|
 | Accuracy | Loss |
 
 On entire Test Set: `Accuracy = 87.72%`
 
 ### Only LSTM 
- [![lstmacc](https://github.com/SqrtPapere/SentimentAnalysis_CNN/blob/master/Images/lstmacc.png)]() | [![lstmloss](https://github.com/SqrtPapere/SentimentAnalysis_CNN/blob/master/Images/lstmloss.png)]() 
+ [![lstmacc](C:\Users\LENOV\Documents\GitHub\Natural-Language-Processing---Sentiment-Analysis\Images\lstmacc.png)]() | [![lstmloss](C:\Users\LENOV\Documents\GitHub\Natural-Language-Processing---Sentiment-Analysis\Images\lstmloss.png)]() 
 |:---:|:---:|
 | Accuracy | Loss |
 
 On entire Test Set: `Accuracy = 88.92%`
 
 ### Both CNN and LSTM
- [![dobleacc](https://github.com/SqrtPapere/SentimentAnalysis_CNN/blob/master/Images/dobleacc.png)]() | [![dobleloss](https://github.com/SqrtPapere/SentimentAnalysis_CNN/blob/master/Images/dobleloss.png)]() 
+ [![dobleacc](C:\Users\LENOV\Documents\GitHub\Natural-Language-Processing---Sentiment-Analysis\Images\dobleacc.png)]() | [![dobleloss](C:\Users\LENOV\Documents\GitHub\Natural-Language-Processing---Sentiment-Analysis\Images\dobleloss.png)]() 
 |:---:|:---:|
 | Accuracy | Loss |
 
