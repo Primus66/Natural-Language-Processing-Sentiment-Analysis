@@ -1,7 +1,6 @@
 # Natural Language Processing - Sentiment Analysis
  IMDB dataset having 50,000 movie reviews for natural language processing or Text analytics. This is a dataset for binary sentiment classification containing substantially more data than previous benchmark datasets. We provide a set of 25,000 highly polar movie reviews for training and 25,000 for testing. So, predict the number of positive and negative reviews using either classification or deep learning algorithms.
 
-
 <img algin="center" src="https://upload.wikimedia.org/wikipedia/commons/6/69/IMDB_Logo_2016.svg"/>
 
 ## Sentiment Analysis for reviews using IMDB Dataset with CNN and LSTM
@@ -148,35 +147,35 @@ Learning curves values for accuracy and loss are calculated during training usin
 
 ### Only CNN 
 #### non-static
- [![cnnaccnonstatic](https://github.com/Primus66/Natural-Language-Processing---Sentiment-Analysis/blob/main/Images/cnnaccnonstatic.png]() | [![cnnlossnonstatic](C:\Users\LENOV\Documents\GitHub\Natural-Language-Processing---Sentiment-Analysis\Images\cnnlossnonstatic.png)]() 
+ [![cnnaccnonstatic](https://github.com/Primus66/Natural-Language-Processing---Sentiment-Analysis/blob/main/Images/cnnaccnonstatic.png)]() | [![cnnlossnonstatic](https://github.com/Primus66/Natural-Language-Processing---Sentiment-Analysis/blob/main/Images/cnnlossnonstatic.png)]() 
 |:---:|:---:|
 | Accuracy | Loss |
 
 On entire Test Set: `Accuracy = 89.96%`
 
 #### static
- [![cnnaccstatic](C:\Users\LENOV\Documents\GitHub\Natural-Language-Processing---Sentiment-Analysis\Images\cnnaccstatic.png)]() | [![cnnlossstatic](C:\Users\LENOV\Documents\GitHub\Natural-Language-Processing---Sentiment-Analysis\Images\cnnlossstatic.png)]() 
+ [![cnnaccstatic](https://github.com/Primus66/Natural-Language-Processing---Sentiment-Analysis/blob/main/Images/cnnaccstatic.png)]() | [![cnnlossstatic](https://github.com/Primus66/Natural-Language-Processing---Sentiment-Analysis/blob/main/Images/cnnlossstatic.png)]() 
 |:---:|:---:|
 | Accuracy | Loss |
 
 On entire Test Set: `Accuracy = 88.98%`
 
 #### random
- [![cnnaccrandom](C:\Users\LENOV\Documents\GitHub\Natural-Language-Processing---Sentiment-Analysis\Images\cnnaccrand.png)]() | [![cnnlossrandom](C:\Users\LENOV\Documents\GitHub\Natural-Language-Processing---Sentiment-Analysis\Images\cnnlossrand.png)]() 
+ [![cnnaccrandom](https://github.com/Primus66/Natural-Language-Processing---Sentiment-Analysis/blob/main/Images/cnnaccrand.png)]() | [![cnnlossrandom](https://github.com/Primus66/Natural-Language-Processing---Sentiment-Analysis/blob/main/Images/cnnlossrand.png)]() 
 |:---:|:---:|
 | Accuracy | Loss |
 
 On entire Test Set: `Accuracy = 87.72%`
 
 ### Only LSTM 
- [![lstmacc](C:\Users\LENOV\Documents\GitHub\Natural-Language-Processing---Sentiment-Analysis\Images\lstmacc.png)]() | [![lstmloss](C:\Users\LENOV\Documents\GitHub\Natural-Language-Processing---Sentiment-Analysis\Images\lstmloss.png)]() 
+ [![lstmacc](https://github.com/Primus66/Natural-Language-Processing---Sentiment-Analysis/blob/main/Images/lstmacc.png)]() | [![lstmloss](https://github.com/Primus66/Natural-Language-Processing---Sentiment-Analysis/blob/main/Images/lstmloss.png)]() 
 |:---:|:---:|
 | Accuracy | Loss |
 
 On entire Test Set: `Accuracy = 88.92%`
 
 ### Both CNN and LSTM
- [![dobleacc](C:\Users\LENOV\Documents\GitHub\Natural-Language-Processing---Sentiment-Analysis\Images\dobleacc.png)]() | [![dobleloss](C:\Users\LENOV\Documents\GitHub\Natural-Language-Processing---Sentiment-Analysis\Images\dobleloss.png)]() 
+ [![dobleacc](https://github.com/Primus66/Natural-Language-Processing---Sentiment-Analysis/blob/main/Images/dobleacc.png)]() | [![dobleloss](https://github.com/Primus66/Natural-Language-Processing---Sentiment-Analysis/blob/main/Images/dobleloss.png)]() 
 |:---:|:---:|
 | Accuracy | Loss |
 
