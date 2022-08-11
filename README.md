@@ -48,7 +48,7 @@ Essentially three different architectures were used:
 
 ### Only CNN
 
-#### non-static
+#### Non-Static
 Using trainable word embedding.
 
 ```Python
@@ -75,7 +75,7 @@ model.compile(loss='binary_crossentropy',optimizer=optimizer, metrics=['accuracy
 ```
 
 
-#### static
+#### Static
 Using non trainable word embedding.
 ```Python
 sequence_input = Input(shape=(MAX_SEQUENCE_LENGTH,), dtype='int32')
@@ -146,21 +146,21 @@ model.compile(loss='binary_crossentropy',optimizer=optimizer, metrics=['accuracy
 Learning curves values for accuracy and loss are calculated during training using a validation set (10% of training set). 
 
 ### Only CNN 
-#### non-static
+#### Non-Static
  [![cnnaccnonstatic](https://github.com/Primus66/Natural-Language-Processing---Sentiment-Analysis/blob/main/Images/cnnaccnonstatic.png)]() | [![cnnlossnonstatic](https://github.com/Primus66/Natural-Language-Processing---Sentiment-Analysis/blob/main/Images/cnnlossnonstatic.png)]() 
 |:---:|:---:|
 | Accuracy | Loss |
 
 On entire Test Set: `Accuracy = 89.96%`
 
-#### static
+#### Static
  [![cnnaccstatic](https://github.com/Primus66/Natural-Language-Processing---Sentiment-Analysis/blob/main/Images/cnnaccstatic.png)]() | [![cnnlossstatic](https://github.com/Primus66/Natural-Language-Processing---Sentiment-Analysis/blob/main/Images/cnnlossstatic.png)]() 
 |:---:|:---:|
 | Accuracy | Loss |
 
 On entire Test Set: `Accuracy = 88.98%`
 
-#### random
+#### Random
  [![cnnaccrandom](https://github.com/Primus66/Natural-Language-Processing---Sentiment-Analysis/blob/main/Images/cnnaccrand.png)]() | [![cnnlossrandom](https://github.com/Primus66/Natural-Language-Processing---Sentiment-Analysis/blob/main/Images/cnnlossrand.png)]() 
 |:---:|:---:|
 | Accuracy | Loss |
